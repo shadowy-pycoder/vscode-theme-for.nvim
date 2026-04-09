@@ -879,7 +879,7 @@ local theme = lush(function(injected_functions)
 
 		-- requirements.txt
 		sym("@variable.requirements")({ fg = blue_green }),
-		sym("@number.requirements")({ fg = norm_fg }),
+		sym("@number.requirements")({ Number }),
 		sym("@string.special.url.requirements")({ fg = brown }),
 
 		-- compile-mode
