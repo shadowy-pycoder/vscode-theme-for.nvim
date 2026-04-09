@@ -145,8 +145,8 @@ local theme = lush(function(injected_functions)
 		-- PmenuExtraSel = {},
 		PmenuSbar({ ScrollbarGutter }),
 		PmenuThumb({ ScrollbarSlider }),
-		PmenuMatch ( { fg = matched_chars, bg = norm_bg }),
-		PmenuMatchSel ( { fg = matched_chars, bg = selected_item_bg, bold = true }),
+		PmenuMatch({ fg = matched_chars, bg = norm_bg }),
+		PmenuMatchSel({ fg = matched_chars, bg = selected_item_bg, bold = true }),
 		NormalFloat({ Pmenu }),
 		Question({ fg = dark_blue }),
 		QuickFixLine({ QfSelection }),
@@ -878,9 +878,9 @@ local theme = lush(function(injected_functions)
 		sym("@property.yaml")({ fg = dark_blue }),
 
 		-- requirements.txt
-		requirementsPackageName({ fg = blue_green }),
-		requirementsVersionSpecifiers({ fg = norm_fg }),
-		requirementsVersionControls({ fg = brown }),
+		sym("@variable.requirements")({ fg = blue_green }),
+		sym("@number.requirements")({ fg = norm_fg }),
+		sym("@string.special.url.requirements")({ fg = brown }),
 
 		-- compile-mode
 		-- CompileModeMessage guifg=NONE gui=underline
