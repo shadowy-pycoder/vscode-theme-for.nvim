@@ -158,9 +158,9 @@ local theme = lush(function(injected_functions)
 		SpellRare({ gui = "undercurl", sp = dark_blue }),
 		StatusLine({ bg = black4 }),
 		StatusLineNC({ fg = gray, bg = black4 }),
-		TabLine({ fg = gray4, bg = Normal.bg, gui = "underline", sp = tab_border_fg }), -- tab.inactiveBackground, tab.inactiveForeground
-		TabLineFill({ fg = "NONE", bg = Normal.bg, gui = "underline", sp = tab_border_fg }), -- editorGroupHeader.tabsBackground
-		TabLineSel({ fg = Normal.fg, bg = Normal.bg, gui = "bold, underline", sp = tab_border_fg }), -- tab.activeBackground, tab.activeForeground
+		TabLine({ fg = gray4, bg = Normal.bg, sp = tab_border_fg }), -- tab.inactiveBackground, tab.inactiveForeground
+		TabLineFill({ fg = "NONE", bg = Normal.bg, sp = tab_border_fg }), -- editorGroupHeader.tabsBackground
+		TabLineSel({ fg = Normal.fg, bg = Normal.bg, gui = "bold", sp = tab_border_fg }), -- tab.activeBackground, tab.activeForeground
 		Title({ fg = dark_blue, gui = "bold" }),
 		Visual({ bg = "#264F78" }), -- editor.selectionBackground
 		-- VisualNOS { },
