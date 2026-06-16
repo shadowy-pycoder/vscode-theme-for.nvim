@@ -896,6 +896,9 @@ local theme = lush(function(injected_functions)
 		CompileModeOutputFile({ fg = yellow_orange }),
 		-- CompileModeCheckResult cterm=bold gui=bold guifg=#ff9966
 		-- CompileModeCheckTarget guifg=#ff9966
+
+		-- disable highlight
+		SnippetTabStop({}),
 	}
 end)
 ---@diagnostic enable
