@@ -1,13 +1,13 @@
 #!/bin/bash
-vscode_black="#2c323c"
-vscode_blue="#4fc1ff"
-vscode_yellow="#D7BA7D"
-vscode_red="#D16969"
-vscode_white="#aab2bf"
+vscode_black="#2a2d2e"
+vscode_blue="#61afef"
+vscode_yellow="#e5c07b"
+vscode_red="#e06c75"
+vscode_white="#b0b0b0"
 white="#cccccc"
-vscode_green="#89d185"
-vscode_visual_grey="#3e4452"
-vscode_comment_grey="#5c6370"
+vscode_green="#98c379"
+vscode_visual_grey="#454545"
+vscode_comment_grey="#b0b0b0"
 
 get() {
     local option=$1
@@ -87,4 +87,3 @@ set "status-left" "#[fg=$vscode_black,bg=$vscode_green,bold] #S #{prefix_highlig
 
 set "window-status-format" "#[fg=$vscode_black,bg=$vscode_black,nobold,nounderscore,noitalics]#[fg=$vscode_white,bg=$vscode_black] #I  #W #[fg=$vscode_black,bg=$vscode_black,nobold,nounderscore,noitalics]"
 set "window-status-current-format" "#[fg=$vscode_black,bg=$vscode_visual_grey,nobold,nounderscore,noitalics]#[fg=$vscode_white,bg=$vscode_visual_grey,nobold] #I  #W #[fg=$vscode_visual_grey,bg=$vscode_black,nobold,nounderscore,noitalics]"
-
