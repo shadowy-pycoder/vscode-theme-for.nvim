@@ -156,8 +156,8 @@ local theme = lush(function(injected_functions)
 		SpellCap({ gui = "undercurl", sp = warn_yellow }),
 		SpellLocal({ gui = "undercurl", sp = dark_blue }),
 		SpellRare({ gui = "undercurl", sp = dark_blue }),
-		StatusLine({ bg = black4 }),
-		StatusLineNC({ fg = gray, bg = black4 }),
+		StatusLine({ bg = black }),
+		StatusLineNC({ fg = gray, bg = black }),
 		TabLine({ fg = gray4, bg = Normal.bg, sp = tab_border_fg }), -- tab.inactiveBackground, tab.inactiveForeground
 		TabLineFill({ fg = "NONE", bg = Normal.bg, sp = tab_border_fg }), -- editorGroupHeader.tabsBackground
 		TabLineSel({ fg = Normal.fg, bg = Normal.bg, gui = "bold", sp = tab_border_fg }), -- tab.activeBackground, tab.activeForeground
