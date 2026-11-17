@@ -5,7 +5,7 @@ vscode_yellow="#e5c07b"
 vscode_red="#e06c75"
 vscode_white="#b0b0b0"
 white="#cccccc"
-vscode_green="#98c379"
+vscode_green="#89d185"
 vscode_visual_grey="#454545"
 vscode_comment_grey="#b0b0b0"
 
