@@ -23,7 +23,7 @@ return {
 	insert = { a = { fg = colors.bg, bg = colors.blue, gui = "bold" } },
 	visual = { a = { fg = colors.bg, bg = colors.purple, gui = "bold" } },
 	terminal = { a = { fg = colors.bg, bg = colors.cyan, gui = "bold" } },
-	replace = { a = { fg = colors.bg, bg = colors.red, gui = "bold" } },
+	replace = { a = { fg = colors.bg, bg = colors.red1, gui = "bold" } },
 	inactive = {
 		a = { fg = colors.gray1, bg = colors.bg, gui = "bold" },
 		b = { fg = colors.gray1, bg = colors.bg },
